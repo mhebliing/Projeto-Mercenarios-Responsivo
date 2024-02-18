@@ -345,7 +345,7 @@ main .aside-conteudo h3 {
     background-color: #E2E3E2;
     width: 659px;
     height: 900px;
-    bottom: -107px;
+    top: 613px;
 
 }
 
@@ -418,28 +418,8 @@ h4 {
 
 }
 
-@media screen and (max-width: 362px) {
 
 
-    header nav {
-        background-color: #191414;
-        width: 680px;
-        height: 50px;
-        position: relative;
-        left: 319px;
-    }
-
-    .nav-head {
-    text-decoration: none;
-    color: inherit;
-    cursor: pointer;
-    font-size: 8px;
-}
-
-
-
-    
-}
     
 
 
