@@ -1,0 +1,455 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+    background: #000 url(imgfundo.png) no-repeat center;
+    border-collapse: separate;
+
+
+}
+
+
+.container {
+    width: 100%;
+    margin: auto;
+    margin-top: 137px;
+    display: flex;
+    justify-content: center;
+    max-width: 1400px;
+
+
+}
+
+header nav {
+
+    background-color: #191414;
+    width: 1000px;
+    height: 50px;
+
+}
+
+
+
+ul {
+
+    list-style: none;
+    /* Remove as bolinhas do UL */
+
+}
+
+li {
+
+    display: inline-block;
+    /* INLINE-BLOCK Joga Alinha As Li Uma Ao Lado Da Outra */
+    margin-right: 10px;
+    padding: 14px;
+    color: #665855;
+    position: relative;
+    left: 20px;
+    font-size: 15px;
+
+
+}
+
+
+
+
+
+main .article-video {
+
+    background-color: #E2E2E1;
+    color: #7D7474;
+    display: flex;
+    flex: 2;
+    height: 801px;
+}
+
+
+
+
+main .aside-conteudo {
+
+    background-color: #E2E2E2;
+    display: flex;
+    flex: 1;
+    border: 1px solid #000;
+    height: 987px
+    
+
+}
+
+main .container {
+
+    margin-top: 0;
+    display: flex;
+    flex-direction: row;
+    width: 52%;
+
+
+}
+
+
+main .aside-conteudo h2 {
+    background-color: #161111;
+    height: 47px;
+    color: #7D7474;
+    width: 329px;
+
+
+
+}
+
+main .aside-conteudo span {
+
+    font-size: 15px;
+    margin: 100px;
+
+
+}
+
+main .article-video span {
+
+    font-size: 16px;
+    margin: 122px;
+    background-color: #161111;
+    position: relative;
+    top: 10px;
+}
+    
+
+
+main .article-video .h2-aside {
+
+    width: 658px;
+    height: 47px;
+    font-size: 15px;
+    background-color: #151010;
+    
+
+}
+
+main .aside-conteudo form {
+
+    width: 0;
+    position: relative;
+    top: 64px;
+    right: 300px;
+
+}
+
+main .aside-conteudo .input-02 {
+
+    position: relative;
+    right: 29px;
+    top: 10px;
+    border: 1px solid #000;
+    height: 32px;
+    background-color: #999999;
+
+
+}
+
+
+main .aside-conteudo .input-01 {
+
+    position: relative;
+    right: 30px;
+    height: 32px;
+    background-color: #999999;
+}
+
+
+main .aside-conteudo .senha {
+
+    position: relative;
+    top: 10px;
+    left: 10px;
+
+}
+
+main .aside-conteudo .username {
+
+    position: relative;
+    right: 13px
+
+
+}
+
+
+main .aside-conteudo .submit-02 {
+
+    position: relative;
+    left: 124px;
+    background: #555555;
+    color: #717171;
+    width: 138px;
+    height: 32px;
+    border-radius: 6px;
+    border: none;
+    font-size: 12px;
+}
+
+
+main .aside-conteudo .submit-01 {
+
+    position: relative;
+    top: 31px;
+    left: 13px;
+    height: 27px;
+    background: #555555;
+    color: #717171;
+    border-radius: 6px;
+    border: none;
+    font-size: 12px;
+    width: 58px;
+
+}
+
+ main .aside-conteudo .h2-server{
+
+    position: relative;
+    top: 232px;
+    width: 0;
+    right: 210px;
+    font-size: 15px;   
+
+}
+
+main .aside-conteudo .info-server {
+
+    position: relative;
+    top: 236px;
+    right: 164px;
+    width: 0;
+
+}
+
+main .aside-conteudo h3 {
+
+    font-size: 15px;
+    width: 329px;
+    background: #151010;
+    position: relative;
+    right: 165px;
+    height: 47px;
+    color: #7D7474;
+    padding: 10px;
+    border: 1px solid;
+    
+}
+
+
+
+
+
+
+
+.container-status {
+
+    display: flex;
+    position: relative;
+    width: 272px;
+    float: right;
+    top: 17px;
+    left: 133px;
+    height: 80px;
+    border: 1px solid #999;
+    
+    
+}
+
+.td-status {
+
+    position: relative;
+    right: 121px;
+    top: 28px;
+    border: 1px solid #999;
+    padding: 18px;
+}
+
+
+.td-green {
+
+    position: relative;
+    top: 30px;
+    right: 56px;
+    border: 1px solid #999;
+    padding: 19px;
+
+
+}
+
+.head-rigth {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 43px;
+    background-color: #151010;
+    width: 329px;
+    right: 165px;
+    height: 47px;
+    padding: 10px;
+    color: #7D7474;
+    font-size: 15px;
+    border: 1px solid;
+
+}
+
+
+.cont-facebook {
+
+    position: relative;
+    right: 132px;
+    top: 42px;
+    
+}
+
+
+.videos-gw {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    position: absolute;
+    right: 174px;
+    top: -180px;
+
+}
+
+.server-info {
+
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    right: 166px;
+    top: 566px;
+    background-color: #161111;
+    width: 658px;
+    height: 47px;
+    padding: 10px;
+    color: #999;
+    font-size: 15px;
+}
+
+.p-server {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: absolute;
+    right: 166px;
+    background-color: #E2E3E2;
+    width: 659px;
+    height: 900px;
+    bottom: -107px;
+
+}
+
+.paragrafo-server {
+
+    font-size: 21px;
+    position: relative;
+    top: 34px;
+    font-weight: lighter;
+    color: #807070;
+}
+
+h4 {
+    border: 1px solid #8F0000;;
+    height: 20px;
+    position: absolute;
+    color: #807070;
+}
+
+.h4-02 {
+    position: relative;
+    top: 24px;
+    left: 117px;
+}
+
+
+.paragrafo-01 {
+
+    top: 51px;
+    right: 138px;
+}
+
+.div-fixed {
+
+    width: 0;
+    position: fixed;
+    right: 60px;
+    bottom: 257px;
+}
+
+.link-facebook {
+
+    position: relative;
+    bottom: 15px;
+
+}
+
+.nav-head {
+
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+
+}
+
+.nav-head:hover {
+
+    opacity: 0.5;
+    color: #8F0000;
+
+}
+
+.nav-head:active {
+
+    opacity: 0.9;
+
+}
+
+@media screen and (max-width: 362px) {
+
+
+    header nav {
+        background-color: #191414;
+        width: 680px;
+        height: 50px;
+        position: relative;
+        left: 319px;
+    }
+
+    .nav-head {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+    font-size: 8px;
+}
+
+
+
+    
+}
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
