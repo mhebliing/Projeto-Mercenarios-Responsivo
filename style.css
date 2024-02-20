@@ -353,9 +353,9 @@ main .aside-conteudo h3 {
 
 .paragrafo-server {
 
-    font-size: 8px;
+    font-size: 21px;
     position: relative;
-    top: 9px;
+    top: 26px;
     font-weight: lighter;
     color: #807070;
 }
@@ -370,18 +370,18 @@ h4 {
 
 .h4-02 {
     position: relative;
-    top: 24px;
-    left: 117px;
+    top: 25px;
+    left: 89px;
 }
 
 
 .paragrafo-01 {
 
-    right: -1px;
+    right: 162px;
     position: relative;
-    font-size: 9px;
+    font-size: 16px;
     color: #807070;
-    top: 15px;
+    top: 49px;
 }
 
 
@@ -537,6 +537,7 @@ h4 {
         position: relative;
         font-size: 9px;
         color: #807070;
+        top: 10px;
     }
 
     .paragrafo-server {
