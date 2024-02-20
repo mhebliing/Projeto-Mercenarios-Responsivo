@@ -29,9 +29,15 @@ header nav {
     background-color: #191414;
     width: 1000px;
     height: 50px;
-
+    position: relative;
+    left: 0;
 }
 
+.img-logo {
+
+    width: 1000px;
+
+}
 
 
 ul {
@@ -78,8 +84,6 @@ main .aside-conteudo {
     flex: 1;
     border: 1px solid #000;
     height: 987px
-    
-
 }
 
 main .container {
@@ -119,7 +123,7 @@ main .article-video span {
     position: relative;
     top: 10px;
 }
-    
+
 
 
 main .article-video .h2-aside {
@@ -128,7 +132,7 @@ main .article-video .h2-aside {
     height: 47px;
     font-size: 15px;
     background-color: #151010;
-    
+
 
 }
 
@@ -175,8 +179,6 @@ main .aside-conteudo .username {
 
     position: relative;
     right: 13px
-
-
 }
 
 
@@ -209,13 +211,13 @@ main .aside-conteudo .submit-01 {
 
 }
 
- main .aside-conteudo .h2-server{
+main .aside-conteudo .h2-server {
 
     position: relative;
     top: 232px;
     width: 0;
     right: 210px;
-    font-size: 15px;   
+    font-size: 15px;
 
 }
 
@@ -239,7 +241,7 @@ main .aside-conteudo h3 {
     color: #7D7474;
     padding: 10px;
     border: 1px solid;
-    
+
 }
 
 
@@ -258,8 +260,8 @@ main .aside-conteudo h3 {
     left: 133px;
     height: 80px;
     border: 1px solid #999;
-    
-    
+
+
 }
 
 .td-status {
@@ -305,7 +307,7 @@ main .aside-conteudo h3 {
     position: relative;
     right: 132px;
     top: 42px;
-    
+
 }
 
 
@@ -351,15 +353,16 @@ main .aside-conteudo h3 {
 
 .paragrafo-server {
 
-    font-size: 21px;
+    font-size: 8px;
     position: relative;
-    top: 34px;
+    top: 9px;
     font-weight: lighter;
     color: #807070;
 }
 
 h4 {
-    border: 1px solid #8F0000;;
+    border: 1px solid #8F0000;
+    ;
     height: 20px;
     position: absolute;
     color: #807070;
@@ -374,13 +377,14 @@ h4 {
 
 .paragrafo-01 {
 
-    top: 51px;
-    right: 138px;
+    right: -1px;
     position: relative;
-    font-size: 21px;
+    font-size: 9px;
     color: #807070;
-    
+    top: 15px;
 }
+
+
 
 .div-fixed {
 
@@ -418,22 +422,359 @@ h4 {
 
 }
 
+.video-01 {
+
+    width: 640px;
+    height: 360px;
+    position: relative;
+    left: 0;
+    top: 0;
+
+}
+
+.video-02 {
+
+    width: 640px;
+    height: 360px;
+    position: relative;
+    top: 0;
+
+}
+
+.div-face {
+
+    width: 270px;
+    height: 545px;
+
+}
+
+@media screen and (max-width: 390px) {
 
 
-    
+    header nav {
+        background-color: #191414;
+        width: 382px;
+        height: 25px;
+        position: relative;
+        left: 0px;
+    }
+
+
+    li {
+        display: inline-block;
+        margin-right: 0px;
+        padding: 1px;
+        color: #665855;
+        position: relative;
+        left: 3px;
+        font-size: 0.5rem;
+    }
+
+    .p-server {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        position: absolute;
+        right: -27px;
+        background-color: #E2E3E2;
+        width: 249px;
+        height: 695px;
+        top: 389px;
+    }
+
+
+
+    .div-fixed {
+        width: 0;
+        position: fixed;
+        right: 27px;
+        bottom: 257px;
+    }
+
+    .foto-facebook {
+
+        width: 28px;
+
+    }
+
+    .foto-youtube {
+
+        width: 28px;
+
+
+    }
+
+    .p-server {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        position: absolute;
+        right: 11px;
+        background-color: #E2E3E2;
+        width: 204px;
+        height: 490px;
+        top: 380px;
+
+    }
+
+
+    h4 {
+        border: 1px solid #8F0000;
+        height: 19px;
+        position: absolute;
+        color: #807070;
+        font-size: 8px;
+    }
+
+    .h4-02 {
+        position: relative;
+        top: 23px;
+        left: 0px;
+    }
+
+    .paragrafo-01 {
+        right: -1px;
+        position: relative;
+        font-size: 9px;
+        color: #807070;
+    }
+
+    .paragrafo-server {
+        font-size: 7px;
+        position: relative;
+        top: 5px;
+        font-weight: lighter;
+        color: #807070;
+    }
+
+
+    .video-02 {
+        width: 197px;
+        left: 156px;
+        position: relative;
+        height: 220px;
+        top: -9px;
+    }
+
+    .video-01 {
+
+        width: 197px;
+        position: relative;
+        left: 156px;
+        height: 220px;
+        top: -16px;
+
+    }
+
+    .td-green {
+        position: relative;
+        top: 24px;
+        right: -31px;
+        border: 1px solid #999;
+        padding: 4px;
+    }
+
+    .td-status {
+        position: relative;
+        right: 2px;
+        top: 24px;
+        border: 1px solid #999;
+        padding: 9px;
+    }
+
+    .container-status {
+        display: flex;
+        position: relative;
+        width: 164px;
+        float: right;
+        top: 7px;
+        left: 157px;
+        height: 69px;
+        border: 1px solid #999;
+    }
+
+    main .aside-conteudo span {
+        font-size: 9px;
+        margin: 46px;
+    }
+
+    main .aside-conteudo h3 {
+        font-size: 13px;
+        width: 174px;
+        background: #151010;
+        position: relative;
+        right: 10px;
+        height: 37px;
+        color: #7D7474;
+        padding: 7px;
+        border: 1px solid;
+    }
+
+    main .aside-conteudo .submit-02 {
+        position: relative;
+        left: 213px;
+        background: #555555;
+        color: #717171;
+        width: 72px;
+        height: 30px;
+        border-radius: 7px;
+        border: none;
+        font-size: 7px;
+    }
+
+    main .aside-conteudo .submit-01 {
+        position: relative;
+        top: 31px;
+        left: 137px;
+        height: 27px;
+        background: #555555;
+        color: #717171;
+        border-radius: 6px;
+        border: none;
+        font-size: 8px;
+        width: 50px;
+    }
+
+
+    main .aside-conteudo .input-02 {
+        position: relative;
+        right: -124px;
+        top: 4px;
+        border: 1px solid #000;
+        height: 15px;
+        background-color: #999999;
+        width: 79px;
+    }
+
+    main .aside-conteudo .senha {
+        position: relative;
+        top: 3px;
+        left: 146px;
+        font-size: 9px;
+    }
+
+    main .aside-conteudo .input-01 {
+        position: relative;
+        right: -123px;
+        height: 16px;
+        background-color: #999999;
+        width: 79px;
+    }
+
+    main .aside-conteudo .username {
+        position: relative;
+        right: -133px;
+        font-size: 9px;
+    }
+
+    main .aside-conteudo h2 {
+        background-color: #161111;
+        height: 35px;
+        color: #7D7474;
+        width: 329px;
+    }
+
+
+    main .aside-conteudo span {
+        font-size: 9px;
+        margin: 46px;
+    }
+
+    main .aside-conteudo {
+        background-color: #E2E2E2;
+        display: flex;
+        flex: 1;
+        border: 1px solid #000;
+        height: 987px;
+        width: 176px;
+    }
+
+
+
+    main .article-video {
+        background-color: #E2E2E1;
+        color: #7D7474;
+        display: flex;
+        flex: 2;
+        height: 581px;
+        width: 206px;
+    }
+
+    main .article-video .h2-aside {
+        width: 206px;
+        height: 36px;
+        font-size: 12px;
+        background-color: #151010;
+
+
+
+    }
+
+
+    main .article-video span {
+        font-size: 8px;
+        margin: 22px;
+        background-color: #161111;
+        position: relative;
+        top: 9px;
+    }
+
+
+    .img-logo {
+
+        width: 382px;
+
+    }
+
+
+    header nav {
+        background-color: #191414;
+        width: 382px;
+        height: 25px;
+        position: relative;
+        left: 0px;
+    }
+
+    .server-info {
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        right: 11px;
+        top: 346px;
+        background-color: #161111;
+        width: 206px;
+        height: 33px;
+        padding: 10px;
+        color: #999;
+        font-size: 10px;
+    }
+
+    .head-rigth {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        top: 43px;
+        background-color: #151010;
+        width: 174px;
+        right: 10px;
+        height: 39px;
+        padding: 10px;
+        color: #7D7474;
+        font-size: 11px;
+        border: 1px solid;
+    }
+
+    .div-face {
+
+        width: 172px;
+        position: relative;
+        left: 123px;
+        top: 2px;
+    }
 
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
+}
